@@ -8,14 +8,14 @@ void main() {
 }
 
 final ThemeData kIOSTheme = ThemeData(
-  primarySwatch: Colors.orange,
+  primarySwatch: Colors.green,
   primaryColor: Colors.grey[100],
   primaryColorBrightness: Brightness.light,
 );
 
 final ThemeData kDefaultTheme = ThemeData(
-  colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.purple)
-      .copyWith(secondary: Colors.orangeAccent[400]),
+  colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.green)
+      .copyWith(secondary: Colors.blueGrey[400]),
 );
 
 String _name = 'Cool Cat';
